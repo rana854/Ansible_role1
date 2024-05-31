@@ -10,7 +10,7 @@ git clone https://github.com/rana854/Ansible_role1
 
 2. Modify the inventory file (`hosts`) to include the IP addresses or hostnames of your web servers.
 
-3. Customize the playbook (`deploy-web-app.yml`) if needed. Adjust variables or tasks to fit your specific application requirements.
+3. Customize the playbook (`deployweb-app.yml`) if needed. Adjust variables or tasks to fit your specific application requirements.
 
 4. Run the playbook:
 
