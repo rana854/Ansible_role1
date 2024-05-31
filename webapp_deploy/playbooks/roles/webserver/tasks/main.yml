@@ -1,0 +1,12 @@
+---
+- name: Install Nginx
+  ansible.builtin.yum:
+    name: nginx
+    state: present
+
+- name: Deploy Sample Web Application
+  copy:
+    src: "{{ playbook_dir }}/roles/webserver/templates/index.html.j2"
+    dest: /usr/share/nginx/html/index.html
+  notify: Restart Nginx
+
