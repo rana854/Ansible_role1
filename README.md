@@ -1,1 +1,22 @@
-# Ansible_role1
+### Ansible Role for Nginx Deployment
+
+This repository provides an Ansible role to install Nginx and automate the deployment of a web application using Nginx. It includes a handler to restart Nginx after deployment.
+
+#### Usage
+
+1. Clone this repository to your local machine:
+
+git clone https://github.com/rana854/Ansible_role1
+
+2. Modify the inventory file (`hosts`) to include the IP addresses or hostnames of your web servers.
+
+3. Customize the playbook (`deploy-web-app.yml`) if needed. Adjust variables or tasks to fit your specific application requirements.
+
+4. Run the playbook:
+
+ansible-playbook -i hosts deploy-web-app.yml
+
+
+#### Sample Web Application
+
+The sample web application included in this playbook is located at `roles/webserver/templates/index.html.j2`. Modify this file to replace it with your actual web application content.
