@@ -2,7 +2,8 @@
 
 This repository provides an Ansible role to install Nginx and automate the deployment of a web application using Nginx. It includes a handler to restart Nginx after deployment.
 
-![image](https://github.com/rana854/Ansible_role1/assets/132678372/d8894512-a4ef-4f17-a244-4e1f69da9805)
+![image](https://github.com/rana854/Ansible_role1/assets/132678372/4fbd9581-8b21-4340-ab1d-7d425401ca41)
+
 
 
 #### Usage
